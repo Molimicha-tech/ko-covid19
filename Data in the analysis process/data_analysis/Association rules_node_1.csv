@@ -1,0 +1,57 @@
+Id,Label,cluster,weight
+0,nlp,3,2
+1,python,2,29
+2,coronavirus tracking,2,18
+3,coronavirus real time,2,9
+4,open data,2,1
+5,covid19 data,2,26
+6,epidemic,2,2
+7,epidemiology,2,3
+8,pandemic,2,4
+9,visualization,2,1
+10,coronavirus info,2,7
+11,coronavirus globaloutbreak,2,6
+12,data visualization,2,5
+13,virus,2,2
+14,coronavirus analysis,2,7
+15,artificial intelligence,3,2
+16,deep learning,3,8
+17,computer vision,3,5
+18,machine learning,3,8
+19,telegram bot,2,3
+20,dataset,2,4
+21,r,2,1
+22,data,2,3
+23,twitter,2,1
+24,pandas,2,3
+25,matplotlib,2,2
+26,covid api,2,7
+27,coronavirus dataset,2,6
+28,plotly,2,2
+29,dashboard,2,4
+30,data science,2,3
+31,data analysis,2,3
+32,bot,2,2
+33,statistics,2,1
+34,covid 19 italy,2,2
+35,jupyter notebook,2,1
+36,json,2,2
+37,flask,2,1
+38,beautifulsoup4,2,1
+39,covid19 dataset,2,1
+40,pytorch,3,1
+41,italy,2,2
+42,covid 19 india,2,4
+43,india,2,4
+44,brazil,2,1
+45,time series,2,2
+46,health,2,1
+47,csv,2,3
+48,covid 19 brazil,2,1
+49,cli,2,1
+50,convolutional neural networks,3,6
+51,tensorflow,3,5
+52,keras,3,5
+53,simulation,2,1
+54,social distancing,3,1
+55,mask,3,2

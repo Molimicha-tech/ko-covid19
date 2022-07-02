@@ -1,0 +1,107 @@
+id,label,cluster,weight
+0,coronavirus tracking,2,1092
+1,covid19 data,2,1075
+2,python,2,1071
+3,javascript,1,378
+4,react,1,940
+5,coronavirus real time,2,243
+6,coronavirus info,2,185
+7,reactjs,1,885
+8,api,1,218
+9,covid 19 india,2,334
+10,covid api,2,225
+11,android,4,246
+12,coronavirus analysis,2,143
+13,machine learning,3,221
+14,data visualization,2,137
+15,deep learning,3,320
+16,flutter,4,351
+17,nodejs,1,145
+18,dataset,2,114
+19,visualization,2,109
+20,dashboard,2,164
+21,data,2,98
+22,pandemic,2,83
+23,data science,2,79
+24,india,2,202
+25,flask,2,95
+26,r,2,97
+27,data analysis,2,79
+28,jupyter notebook,2,92
+29,java,4,108
+30,android app,4,94
+31,epidemiology,2,62
+32,open source,1,58
+33,tracker,1,57
+34,css,1,54
+35,typescript,1,59
+36,firebase,1,58
+37,ios,4,66
+38,html,1,49
+39,vuejs,1,58
+40,react native,1,79
+41,docker,1,66
+42,kotlin,4,59
+43,material ui,1,63
+44,covid 19 italy,2,70
+45,chartjs,1,51
+46,computer vision,3,48
+47,health,2,47
+48,dart,4,236
+49,flutter apps,4,249
+50,artificial intelligence,3,49
+51,pandas,2,46
+52,webapp,1,44
+53,bootstrap,1,44
+54,simulation,2,89
+55,coronavirus globaloutbreak,2,43
+56,rest api,1,43
+57,angular,1,129
+58,django,1,62
+59,statistics,2,42
+60,nlp,3,43
+61,tensorflow,3,47
+62,vue,1,60
+63,convolutional neural networks,3,45
+64,time series,2,43
+65,json,2,44
+66,golang,2,37
+67,bot,2,78
+68,coronavirus dataset,2,38
+69,plotly,2,40
+70,open data,2,36
+71,telegram bot,2,59
+72,social distancing,3,50
+73,app,4,36
+74,epidemic,2,34
+75,virus,2,34
+76,brazil,2,58
+77,express,1,33
+78,php,1,37
+79,healthcare,2,32
+80,twitter,2,87
+81,map,2,31
+82,country,2,31
+83,html5,1,31
+84,mask,3,73
+85,covid19 dataset,2,30
+86,covid 19 brazil,2,30
+87,italy,2,31
+88,react hooks,1,28
+89,swift,4,34
+90,matplotlib,2,27
+91,heroku,1,27
+92,wirvsvirus,1,29
+93,contact tracing,4,28
+94,pytorch,3,26
+95,website,1,26
+96,retrofit2,4,27
+97,graphql,1,37
+98,cli,2,29
+99,csv,2,26
+100,hackathon,1,26
+101,spring boot,1,30
+102,prediction,2,26
+103,beautifulsoup4,2,25
+104,axios,1,26
+105,keras,3,32
