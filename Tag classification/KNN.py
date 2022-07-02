@@ -1,7 +1,6 @@
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import KFold
 import numpy as np
-
 from model_select import test_p
 from Text2vec import text2vec
 

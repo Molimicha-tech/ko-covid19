@@ -21,8 +21,8 @@ def code_translate(dataset):
     for index, item in enumerate(items):
         str_to_index[item] = index
         index_to_str[index] = item
-    print("字符串到编号:", list(str_to_index.items())[:5])
-    print("编号到字符串:", list(index_to_str.items())[:5])
+    print("string to id:", list(str_to_index.items())[:5])
+    print("id to string:", list(index_to_str.items())[:5])
 
     for i in range(len(dataset)):
         for j in range(len(dataset[i])):
@@ -114,12 +114,12 @@ def id2tag():
         line = f.readline()
     f.close()
 
-    clean_rules = pd.DataFrame(columns=["左侧", "右侧", "关联规则", "支持度", "置信度", "提升度"])
+    clean_rules = pd.DataFrame(columns=["left", "right", "rule", "support", "confidence", "elevation"])
 
     df = pd.DataFrame(rules)
-    df = df.reindex(["左侧", "右侧", "支持度", "置信度", "提升度"], axis=1)
-    df["左侧"] = df["左侧"].apply(change)
-    df["右侧"] = df["右侧"].apply(change)
+    df = df.reindex(["left", "right", "support", "confidence", "elevation"], axis=1)
+    df["left"] = df["left"].apply(change)
+    df["right"] = df["right"].apply(change)
 
     rule_list = []
 
@@ -135,10 +135,10 @@ def id2tag():
             continue
         else:
             rule_list.append(set(r))
-            clean_rules = clean_rules.append([{"左侧": ";".join(line[0]),
-                                               "右侧": ";".join(line[1]),
-                                               "关联规则": ";".join(line[0]) + " => " + ";".join(line[1]),
-                                               "支持度": line[2], "置信度": line[3], "提升度": line[4]}], ignore_index=True)
+            clean_rules = clean_rules.append([{"left": ";".join(line[0]),
+                                               "right": ";".join(line[1]),
+                                               "rule": ";".join(line[0]) + " => " + ";".join(line[1]),
+                                               "support": line[2], "confidence": line[3], "elevation": line[4]}], ignore_index=True)
 
     df.to_csv(".\\Data in the analysis process\\data_analysis\\Association rules_1.csv", index=False)
     clean_rules.to_csv(".\\Data in the analysis process\\data_analysis\\Association rules_clean_1.csv", index=False)

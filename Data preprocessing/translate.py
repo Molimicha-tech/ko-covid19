@@ -54,7 +54,7 @@ exist = pd.read_csv(".\\Data in the analysis process\\projectFilter_translated.c
 ok_id = exist["id"].tolist()
 # print(ok_id)
 
-f = pd.read_excel('.\\Data in the analysis processl\\projectFilter.xlsx', sheet_name='项目筛选', header=0)
+f = pd.read_excel('.\\Data in the analysis processl\\projectFilter.xlsx', header=0)
 wait_id = f["id"].tolist()
 
 result = []

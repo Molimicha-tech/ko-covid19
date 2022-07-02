@@ -11,7 +11,7 @@ def segWordsCorpus():
     with open('.\\Data in the analysis process\\tag_std_0.csv', 'r', encoding='utf-8') as csvfile:
         reader = csv.reader(csvfile);
         result = list(reader);
-    data = pd.read_csv('.\\Data in the analysis process\\introduction.csv')#源文件路径（.csv）
+    data = pd.read_csv('.\\Data in the analysis process\\introduction.csv')
 
     #readme = pd.DataFrame(columns=['id','name','description','url','star','fork','issues','topic','readMe','introduction','owner','ownerId','ownerType','createTime','language','lang_detail','langId'])
     f = open(".\\Data in the analysis process\\Word vector training corpus.txt","w",encoding="utf-8")
