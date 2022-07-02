@@ -90,7 +90,7 @@ def rules_from_L_all(L_all,min_confidence):
         confidence=support/L_all[left]
         lift=confidence/L_all[right]
         if confidence>=min_confidence:
-            result.append({"左侧":left,"右侧":right,"支持度":support,"置信度":confidence,"提升度":lift})
+            result.append({"left":left,"right":right,"support":support,"confidence":confidence,"elevation":lift})
     return result
 
 def apriori(dataset,min_support,min_confidence):
