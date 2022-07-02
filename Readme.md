@@ -13,9 +13,9 @@ projects and how are they related?
 <pre>ko_covid19:                      Root directory
 │  data.db3:                          Dataset of this study
 │
-├─Data in the analysis process:       Store intermediate data
+├─Data in the analysis process:       Storage of intermediate data
 │
-├─Data preprocessing:                 Store the code of data processing
+├─Data preprocessing:                   
 │      │ translate.py:                 Translate data from other languages into English
 │      └─text_processing.py:           Delete stop words and other special characters
 │
@@ -37,11 +37,11 @@ projects and how are they related?
 │      │ tag_classification.py:        Source code of classification
 │      └─Text2vec.py:                  Source code of text to vector
 │ 
-└─Data analysis:                      Store the code of data analysis
-       │ association_analysis.py:      The code of association analysis 
-       │ Co-word_clustering.py:        The code of co-word clustering
-       │ hashtag_count.py:             Tag extraction results tag statistics
-       └─word_frequency_analysis.py:   The code of word frequency analysis
+└─Data analysis:                       
+       │ association_analysis.py:      Source code of association analysis 
+       │ Co-word_clustering.py:        Source code of co-word clustering
+       │ hashtag_count.py:             Source code of tag statistics of tag extraction results
+       └─word_frequency_analysis.py:   Source code of word frequency analysis
 </pre>
 ## Contributions
 The main contributions of this paper include the following. Analyzing the response of specific communities of practice to the pandemic will help facilitate better solutions for the community of practice in response to the COVID-19 and future pandemics. Summarizing the functionality of projects initiated by the IT community of practice during the pandemic and the technologies used will help create a larger pool of pre-existing technologies to address future crises. An examination of GitHub shows the differences in technology adoption during the pandemic between the communities of practice and the academic community. This can provide helpful insight into the rapid adoption of emerging technologies during the pandemic.
