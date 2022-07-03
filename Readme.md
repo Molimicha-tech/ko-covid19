@@ -10,7 +10,7 @@ changed over time? What technologies are involved in the development of these
 projects and how are they related?
 
 ## Directory structure
-<pre>ko_covid19:                      Root directory
+<pre>ko_covid19:                      
 │  data.db3:                          The dataset used in this study is stored in a SQLite database
 │
 ├─Data in the analysis process:       Storage of intermediate data
