@@ -11,7 +11,8 @@ projects and how are they related?
 
 ## Directory structure
 <pre>ko_covid19                            Root directory  
-│  data.db3                           The dataset used in this study is stored in a SQLite database
+│  
+├─data.db3                            The dataset used in this study is stored in a SQLite database
 │
 ├─Data in the analysis process        Storage of intermediate data
 │
