@@ -1,7 +1,7 @@
 # Using Hashtags to Analysis Purpose and Technology Application of Open Source Project Related to COVID-19.
 ## Overview
 <b>Dataset and code for paper "Using Hashtags to Analysis Purpose and Technology A
-pplication of Open Source Project Related to COVID-19."</b>
+pplication of Open Source Project Related to COVID-19".</b>
 
 Under the background of covid-19, many related open source projects have 
 emerged in the open source community. We want to know: What are the main 
