@@ -12,37 +12,37 @@ projects and how are they related?
 ## Directory structure
 <pre>ko_covid19                            Root directory  
 │  
-├─data.db3                            The dataset used in this study is stored in a SQLite database
+├─ data.db3                            The dataset used in this study is stored in a SQLite database
 │
-├─Data in the analysis process        Storage of intermediate data
+├─ Data in the analysis process        Storage of intermediate data
 │
-├─Data preprocessing                  Source code of data preprocessing 
-│      │ translate.py                 Translate data from other languages into English
-│      └─text_processing.py           Delete stop words and other special characters
+├─ Data preprocessing                  Source code of data preprocessing 
+│      ├─ translate.py                 Translate data from other languages into English
+│      └─ text_processing.py           Delete stop words and other special characters
 │
-├─Synonym hashtag processing          Source code of synonym hashtag processing
-│      │ exist_tag_count.py           Statistics on existing tags
-│      │ get_similar_hashtags.py      Get the 10 most semantically similar topic tags
-│      │ get_word2vec_corpus.py       Generating a word vector training corpus
-│      │ replace_hashtags.py          Use the synonym dictionary to replace the synonym
-│      │ select_core_tags.py          Source code of the selection of core topic tags
-│      └─train_word2vec.py            ource code for training Word2Vec model
+├─ Synonym hashtag processing          Source code of synonym hashtag processing
+│      ├─ exist_tag_count.py           Statistics on existing tags
+│      ├─ get_similar_hashtags.py      Get the 10 most semantically similar topic tags
+│      ├─ get_word2vec_corpus.py       Generating a word vector training corpus
+│      ├─ replace_hashtags.py          Use the synonym dictionary to replace the synonym
+│      ├─ select_core_tags.py          Source code of the selection of core topic tags
+│      └─ train_word2vec.py            ource code for training Word2Vec model
 │
-├─Tag classification                  Source code of tag classification 
-│      │ KNN.py                       Source code of KNN model
-│      │ LogisticRegression.py        Source code of Logistic Regression (LR) model
-│      │ model_select.py              Source code of model testing
-│      │ NB.py                        Source code of Naïve Bayes (NB) model
-│      │ RandomForest.py              Source code of Random Forest (RF) model
-│      │ SVM.py                       Source code of Support Vector Machine (SVM) model
-│      │ tag_classification.py        Source code of classification
-│      └─Text2vec.py                  Source code of Text2Vec model
+├─ Tag classification                  Source code of tag classification 
+│      ├─ KNN.py                       Source code of KNN model
+│      ├─ LogisticRegression.py        Source code of Logistic Regression (LR) model
+│      ├─ model_select.py              Source code of model testing
+│      ├─ NB.py                        Source code of Naïve Bayes (NB) model
+│      ├─ RandomForest.py              Source code of Random Forest (RF) model
+│      ├─ SVM.py                       Source code of Support Vector Machine (SVM) model
+│      ├─ tag_classification.py        Source code of classification
+│      └─ Text2vec.py                  Source code of Text2Vec model
 │ 
-├─Data analysis                       Source code of data analysis 
-│      │ association_analysis.py      Source code of association analysis 
-│      │ Co-word_clustering.py        Source code of co-word clustering
-│      │ hashtag_count.py             Source code of tag statistics of tag extraction results
-│      └─word_frequency_analysis.py   Source code of word frequency analysis
+├─ Data analysis                       Source code of data analysis 
+│      ├─ association_analysis.py      Source code of association analysis 
+│      ├─ Co-word_clustering.py        Source code of co-word clustering
+│      ├─ hashtag_count.py             Source code of tag statistics of tag extraction results
+│      └─ word_frequency_analysis.py   Source code of word frequency analysis
 │      
 └─ README.md
 </pre>
