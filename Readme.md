@@ -16,7 +16,7 @@ projects and how are they related?
 │
 ├─ Data in the analysis process        Storage of intermediate data
 │
-├─ Data preprocessing                   Module of data preprocessing 
+├─ Data preprocessing                  Module of data preprocessing 
 │      ├─ translate.py                 Translate data from other languages into English
 │      └─ text_processing.py           Delete stop words and other special characters
 │
