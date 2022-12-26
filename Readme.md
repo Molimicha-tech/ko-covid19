@@ -31,7 +31,7 @@ projects and how are they related?
 ├─ Tag classification                  Source code of tag classification 
 │      ├─ KNN.py                       Source code of KNN model
 │      ├─ LogisticRegression.py        Source code of Logistic Regression (LR) model
-│      ├─ model_select.py              Source code of model testing
+│      ├─ model_select.py              Source code of selecting the model with best performance
 │      ├─ NB.py                        Source code of Naïve Bayes (NB) model
 │      ├─ RandomForest.py              Source code of Random Forest (RF) model
 │      ├─ SVM.py                       Source code of Support Vector Machine (SVM) model
