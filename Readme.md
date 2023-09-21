@@ -53,4 +53,4 @@ The main contributions of this paper include the following aspects:
 * An examination of GitHub shows the differences in technology adoption during the pandemic between the communities of practice and the academic community. This can provide helpful insight into the rapid adoption of emerging technologies during the pandemic.
 ## Citation
 Please cite the following paper if you use this code and dataset in your work.
->Liang Tian, Chengzhi Zhang. Using Hashtags to Analysis Purpose and Technology Application of Open-Source Project Related to COVID-19. Knowledge Organization, 2022, 49(3): 192-207. [[doi](https://doi.org/10.5771/0943-7444-2022-3-192)]  [[arXiv](http://arxiv.org/abs/2207.06219)]
+>Liang Tian, Chengzhi Zhang. Using Hashtags to Analysis Purpose and Technology Application of Open-Source Project Related to COVID-19. ***Knowledge Organization***, 2022, 49(3): 192-207. [[doi](https://doi.org/10.5771/0943-7444-2022-3-192)]  [[arXiv](http://arxiv.org/abs/2207.06219)]
